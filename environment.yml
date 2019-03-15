@@ -38,6 +38,9 @@ dependencies:
 - jupyter_client
 - jupyter_console
 - jupyter_core
+- conda-forge::jupyter_nbextensions_configurator
+- conda-forge::yapf
+- conda-forge::black
 #- conda-forge::jupyter_contrib_nbextensions
 - libiconv
 - libpng
@@ -110,5 +113,7 @@ dependencies:
   - ipywidgets
   - nbconvert
   - PyHamcrest
-  - pdpbox==0.1.0
+  # - pdpbox==0.1.0
+  - git+https://github.com/angertdevsingh/PDPbox@patch-1
   - scikit-misc
+  - treeinterpreter
