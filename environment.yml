@@ -42,7 +42,7 @@ dependencies:
 - conda-forge::jupyter_nbextensions_configurator
 - conda-forge::yapf
 - conda-forge::black
-#- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::flake8
 - libiconv
 - libpng
 - libsodium
@@ -97,7 +97,6 @@ dependencies:
 - pytorch<0.4
 - bcolz
 - prompt_toolkit
-#- pytest
 - cython
 - pip:
   - torchvision==0.1.9
@@ -113,7 +112,8 @@ dependencies:
   - ipywidgets
   - nbconvert
   - PyHamcrest
-  # - pdpbox==0.1.0
-  - git+https://github.com/angertdevsingh/PDPbox@patch-1
+  - https://github.com/angertdevsingh/PDPbox/archive/patch-1.zip
   - scikit-misc
   - treeinterpreter
+  - https://github.com/ipython-contrib/jupyter_contrib_nbextensions/archive/master.zip
+  - https://github.com/drillan/jupyter-black/archive/master.zip
