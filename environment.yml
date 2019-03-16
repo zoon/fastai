@@ -8,6 +8,7 @@ channels:
 - defaults
 - peterjc123
 dependencies:
+- python=3.6
 - scipy
 - cuda90
 - cudnn
@@ -69,7 +70,6 @@ dependencies:
 - pygments
 - pyparsing
 - pyqt
-- python>=3.6.0
 - python-dateutil
 - pytz
 - pyzmq
