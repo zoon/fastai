@@ -1,3 +1,4 @@
+Untitled*
 .bundle/
 *.bak
 *.log
@@ -140,3 +141,4 @@ docs_src/fastai
 
 # our make release log files
 release-*.log
+courses/ml1/Untitled.ipynb
