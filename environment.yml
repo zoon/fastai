@@ -12,7 +12,7 @@ dependencies:
 - scipy
 - cuda90
 - cudnn
-- numpy
+- numpy=1.15.1
 - pillow
 - jpeg
 - spacy
@@ -53,7 +53,7 @@ dependencies:
 - mkl
 - nbformat
 - notebook
-- numpy
+- numpy=
 - olefile
 - openssl
 - pandas
@@ -116,4 +116,3 @@ dependencies:
   - scikit-misc
   - treeinterpreter
   - https://github.com/ipython-contrib/jupyter_contrib_nbextensions/archive/master.zip
-  - https://github.com/drillan/jupyter-black/archive/master.zip
